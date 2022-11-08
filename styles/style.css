@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+#delete-btn {
+  background-color: blue;
+  border: none;
+  padding: 10px 20px;
+  display: block;
+  margin: 20px auto;
+  color: white;
+  cursor: pointer;
+}
+.characters-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: blue;
+  padding: 20px;
+}
+.main img {
+  margin-left: 400px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.main {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.char-name {
+  font-size: 26px;
+}
+.house {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.btns {
+  margin-top: auto;
+}
